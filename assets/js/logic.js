@@ -30,6 +30,8 @@ function removeItemOnce(arr, value) {
   return arr;
 }
 
+// Init
+
 if (localStorage.getItem('itemsOrder') === null) {
   localStorage.setItem('itemsOrder', shuffleArray(items));
 }
